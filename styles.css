@@ -1,3 +1,15 @@
-.weather-icon {
+@import "loading.css";
+
+.hidden {
   display: none;
+}
+
+.shadow {
+  border-radius: 10px;
+  box-shadow: 4px 12px 30px 6px rgb(0 0 0 /9%);
+}
+
+.weather-icon {
+  width: 40px;
+  height: 40px;
 }

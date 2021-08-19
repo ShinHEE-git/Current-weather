@@ -8,16 +8,26 @@
     <title>Document</title>
   </head>
   <body>
-    <h3 class="location-name">위치</h3>
-    <h2 class="weather-text">날씨</h2>
-    <img class="weather-icon" src="img/internet-3471739_640.png" />
-    <h1 class="temperature">온도</h1>
-    <span class="humidity">습도</span>
-    <div class="temp-minmax">
-      <span>최고온도</span>
-      <span>최저온도</span>
+
+    <div class="loading-page shadow">
+      <div class="loader"></div>
     </div>
-    <div class="etc-box"></div>
+
+    <div class="weather-page hidden">
+      <h3 class="location-name">위치</h3>
+      <h1 class="weather-text">날씨</h2>
+      <img class="weather-icon" src="img/no-internet.png" />
+      <h1 class="temp">온도</h1>
+      <h3 class="temp-feel">체감온도</h2>
+      <span class="humidity">습도</span>
+      <div class="temp-minmax">
+        <span>최고온도</span>
+        <span>최저온도</span>
+      </div>
+      <div class="etc-container">
+      
+      </div>
+    </div>
 
     <script src="weather.js"></script>
   </body>
