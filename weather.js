@@ -25,6 +25,7 @@ function getWeatherApi(latitude, longitude) {
 function changePage() {
   const weatherPage = document.querySelector(".weather-page");
   weatherPage.classList.remove("hidden");
+  weatherPage.classList.add("flex");
   const loadingPage = document.querySelector(".loading-page");
   loadingPage.classList.add("hidden");
 }

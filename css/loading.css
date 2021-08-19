@@ -1,10 +1,10 @@
 .loading-page {
-  width: 400px;
-  height: 400px;
-  background-color: #fff;
+  width: 60vw;
+  height: 60vw;
+  background-color: #f2c335;
   position: absolute;
-  left: calc(50% - 200px);
-  top: calc(50% - 200px);
+  left: calc(50% - 30vw);
+  top: calc(50% - 30vw);
 }
 
 .loader {
@@ -12,12 +12,12 @@
   left: 50%;
   top: 50%;
   z-index: 1;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   margin: -75px 0 0 -75px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #3498db;
+  border-top: 16px solid #5b92d9;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
