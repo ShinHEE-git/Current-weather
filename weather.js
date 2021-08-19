@@ -7,7 +7,7 @@ function successGeo(position) {
 }
 
 function errorGeo() {
-  alert("Can't find you. No information for you");
+  alert("I can't find you!!");
   const weatherIcon = document.querySelector(".weather-icon");
   weatherIcon.src = "img/no-internet.png";
 }
