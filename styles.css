@@ -1,6 +1,7 @@
 @import "css/reset.css";
 @import "css/loading.css";
 @import "css/bigDisplay.css";
+@import "css/smallDisplay.css";
 
 .hidden {
   display: none;

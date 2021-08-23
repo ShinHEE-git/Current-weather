@@ -1,5 +1,23 @@
-@media screen and (max-width: 1099px) {
-  body {
-    background-color: black;
+@media screen and (max-width: 560px) {
+  .location-name {
+    margin: 35px 0;
+  }
+  .main-container {
+    width: 360px;
+    height: 360px;
+  }
+  .weather-text {
+    font-size: 40px;
+  }
+  .weather-icon {
+    margin: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .temp-minmax {
+    width: 360px;
+    flex-direction: column;
+    align-items: center;
   }
 }

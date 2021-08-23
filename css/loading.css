@@ -1,7 +1,7 @@
 .loading-page {
   width: 60vw;
   height: 60vw;
-  background-color: #f2c335;
+  background-color: #f3f3f3;
   position: absolute;
   left: calc(50% - 30vw);
   top: calc(50% - 30vw);
@@ -9,12 +9,11 @@
 
 .loader {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: calc(50% - 71px);
+  top: calc(50% - 71px);
   z-index: 1;
   width: 110px;
   height: 110px;
-  margin: -75px 0 0 -75px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #5b92d9;
