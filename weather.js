@@ -31,21 +31,21 @@ function changePage() {
 }
 
 function paintText(data) {
-  const locationText = document.querySelector(".location-name");
-  const weatherText = document.querySelector(".weather-text");
-  const tempText = document.querySelector(".temp");
-  const tempFeelText = document.querySelector(".temp-feel");
-  const humidityText = document.querySelector(".humidity");
-  const tempMaxText = document.querySelector(".temp-minmax span:first-child");
-  const tempMinText = document.querySelector(".temp-minmax span:last-child");
-
-  locationText.innerText = data.name;
-  weatherText.innerText = data.weather[0].main;
-  tempText.innerText = `${data.main.temp}'C`;
-  tempFeelText.innerText = `체감온도: ${data.main.feels_like}`;
-  humidityText.innerText = `습도: ${data.main.humidity}%`;
-  tempMaxText.innerText = `최고온도: ${data.main.temp_max}`;
-  tempMinText.innerText = `최저온도: ${data.main.temp_min}`;
+  document.querySelector(".location-name").innerText = data.name;
+  document.querySelector(".weather-text").innerText = data.weather[0].main;
+  document.querySelector(".temp").innerText = `${data.main.temp}'C`;
+  document.querySelector(
+    ".temp-feel"
+  ).innerText = `체감온도: ${data.main.feels_like}`;
+  document.querySelector(
+    ".humidity"
+  ).innerText = `습도: ${data.main.humidity}%`;
+  document.querySelector(
+    ".temp-minmax span:first-child"
+  ).innerText = `최고온도: ${data.main.temp_max}`;
+  document.querySelector(
+    ".temp-minmax span:last-child"
+  ).innerText = `최저온도: ${data.main.temp_min}`;
 
   const weatherName = data.weather[0].main;
   const weatherId = data.weather[0].id;
